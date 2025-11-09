@@ -1,57 +1,71 @@
-# 💡 Sense — Smart Tampon Startup Project
+# 💡 Smart Tampon Prototype — IoT Health Device
 
-**Sense** is a smart tampon concept that combines **IoT, sensor technology, and health innovation**  
-to provide real-time menstrual flow tracking and personalized insights.
+This repository documents the **Sense Smart Tampon** project —  
+an IoT-based health device developed as part of **Ariel University’s Entrepreneurship Accelerator**,  
+where it earned **1st place** for innovation and technical feasibility.
 
-The project was developed as part of **Ariel University’s Entrepreneurship Accelerator**,  
-where it won **1st place** for innovation, design, and technical feasibility.
-
----
-
-## 🩸 About the Project
-
-Sense began as a simple idea — to create a discreet, affordable, and intelligent way  
-to track menstrual health in real time. Over time, it evolved into a full **proof-of-concept**  
-that includes a **sensor prototype**, **early lab validation**, and **a complete system architecture**  
-integrating hardware, wireless communication, and mobile experience.
-
-Our focus was never just technology, but **user empathy** — building something that feels natural,  
-accessible, and meaningful for users.
+The project explores how connected sensing technology can detect tampon saturation in real time  
+using simple, low-cost materials and wireless data transmission.
 
 ---
 
-## 🧭 What This Repository Shows
+## 📘 Overview
 
-This repository is not a technical release — it’s a **visual and conceptual record**  
-of how the Sense project was developed.  
-It brings together selected internal materials that show our **creative workflow**,  
-**engineering thinking**, and **collaborative design process**.
+The goal was to build and test a **proof-of-concept** capable of measuring fluid absorption  
+through electrical properties of the tampon (capacitance and resistance),  
+and to demonstrate how these signals could be streamed to a mobile interface.
 
-The documents here include:
-- early concept sketches and brainstorming drafts  
-- proof-of-concept documentation and lab experiment reports  
-- photos, presentations, and materials  
+Development progressed through multiple **POCs (Proofs of Concept)**:
 
-Together, they capture the our journey.
-
----
-
-## 📁 Repository Structure
-
-| Folder | Description |
-|--------|-------------|
-| **showcase/** | Pitch deck, one-pager, photos, and videos used to present the project |
-| **prototype/** | Documents describing the prototype setup and first lab experiment |
-| **drafts/** | Early concept sketches and internal drafts showing how the idea evolved |
+| POC | Focus | Key Outcome |
+|-----|--------|-------------|
+| **POC #0 Lab Validation** | Synthetic fluid test | Verified measurable response up to ~50 pF at full saturation:contentReference[oaicite:4]{index=4} |
+| **POC #1** | Capacitance-based sensing | Confirmed that capacitance increases with fluid absorption:contentReference[oaicite:3]{index=3} |
+| **POC #2** | Resistance sensing + BLE | Achieved live wireless readings via Arduino Nano 33 BLE Sense Rev 2:contentReference[oaicite:5]{index=5} |
 
 ---
 
-## 💬 A Note About the Content
+## 🧩 Prototype Summary
 
-This repository focuses on sharing the **concept and creative workflow** behind the project.  
-It doesn’t include our full product code or detailed app design, since those remain part of our private development.  
-Instead, it highlights the prototype notes and internal documents we used throughout the project to share ideas, record experiments, and align our design direction as a team.
+- **Sensor type:** Conductive zinc or foil electrodes integrated into a tampon analog  
+- **Microcontroller:** Arduino Nano 33 BLE Sense Rev 2 (Bluetooth Low Energy)  
+- **Measurement method:** Resistance-based voltage divider (POC #2), capacitance-based timing (POC #1)  
+- **Testing medium:** Saline “synthetic blood” solution prepared to simulate physiological conductivity  
+- **Data visualization:** Custom prototype mobile app displaying live fill-level readings    
+
+---
+
+## 🧪 Files Included
+
+| File | Description |
+|------|--------------|
+| **prototype/** | Technical documentation of POC stages and lab validation experiments |
+| **showcase/** | Pitch deck, presentation materials, and prototype photos/videos |
+
+## 🧪 Key Documents
+
+| File | Description |
+|------|--------------|
+| **Capacitive Sensor – Preliminary Lab Validation.pdf** | Laboratory validation confirming capacitance correlation with fluid absorption. |
+| **First POC – Arduino.pdf** | Early proof-of-concept measuring tampon capacitance and mapping saturation levels. |
+| **2nd POC – BLE.pdf** | Upgraded prototype using resistance sensing and BLE for real-time data streaming. |
+| **Investor_Pitch_Deck.pdf** | Presentation used during the accelerator and investor pitch. Summarizes concept, market potential, and technical milestones. |
 
 ---
 
 
+## 💬 About This Repository
+
+This repository focuses on sharing the **concept, experiments, and workflow** behind the prototype,  
+rather than publishing the full production code or app design.  
+All included documents are internal working materials used by the team to record experiments,  
+exchange ideas, and communicate progress during development.
+
+---
+
+
+## 🏁 Summary
+
+This project demonstrates a complete early-stage development cycle —  
+from concept validation and lab testing to live wireless prototyping —  
+showing how IoT and simple sensor design can improve menstrual health technology.
