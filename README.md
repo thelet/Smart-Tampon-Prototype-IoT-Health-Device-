@@ -19,9 +19,9 @@ Development progressed through multiple **POCs (Proofs of Concept)**:
 
 | POC | Focus | Key Outcome |
 |-----|--------|-------------|
-| **POC #0 Lab Validation** | Synthetic fluid test | Verified measurable response up to ~50 pF at full saturation:contentReference[oaicite:4]{index=4} |
-| **POC #1** | Capacitance-based sensing | Confirmed that capacitance increases with fluid absorption:contentReference[oaicite:3]{index=3} |
-| **POC #2** | Resistance sensing + BLE | Achieved live wireless readings via Arduino Nano 33 BLE Sense Rev 2:contentReference[oaicite:5]{index=5} |
+| **POC #0 Lab Validation** | Synthetic fluid test | Verified measurable response up to ~50 pF at full saturation |
+| **POC #1** | Capacitance-based sensing | Confirmed that capacitance increases with fluid absorption |
+| **POC #2** | Resistance sensing + BLE | Achieved live wireless readings via Arduino Nano 33 BLE Sense Rev 2 |
 
 ---
 
